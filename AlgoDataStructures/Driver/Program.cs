@@ -1,15 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DataStructures.Arrays;
+
+using System;
 
 namespace Driver
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            string[] array = new string[] { "1", "2", "3", "4", "5", "6", "7" };
+            array.Print();
+
+            #region Rotate By N
+
+            int n = 2;
+            Console.WriteLine("\nRotating by " + n);
+            array.RotateByN(n, RotateApproach.TempStorage);
+            Console.Read();
+
+            #endregion
         }
     }
 }
