@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankProblems", "HackerRankProblems.csproj", "{DA298D6E-0243-4213-8739-588F28E8BEF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib", "..\Lib\Lib.csproj", "{25B74DA8-6AA6-475C-B25E-446DBF5C1B5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA298D6E-0243-4213-8739-588F28E8BEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA298D6E-0243-4213-8739-588F28E8BEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA298D6E-0243-4213-8739-588F28E8BEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA298D6E-0243-4213-8739-588F28E8BEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25B74DA8-6AA6-475C-B25E-446DBF5C1B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B74DA8-6AA6-475C-B25E-446DBF5C1B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B74DA8-6AA6-475C-B25E-446DBF5C1B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B74DA8-6AA6-475C-B25E-446DBF5C1B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D975A9D-312F-48B8-B7E1-B938ACE54C38}
+	EndGlobalSection
+EndGlobal
