@@ -9,6 +9,15 @@
 
     public static class ArrayExtensions
     {
+        public static void Print<T>(this T[] array)
+        {
+            System.Console.WriteLine("Printing Array : ");
+            for (int i = 0; i < array.Length; i++)
+            {
+                System.Console.Write(string.Format("{0} ", array[i]));
+            }
+        }
+
         public static void Print(this object[] array)
         {
             System.Console.WriteLine("Printing Array : ");
